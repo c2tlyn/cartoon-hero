@@ -1,12 +1,67 @@
 body{
 	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 header{
-	background-color: white;
+	background-color: snow;
 	text-align: center;
+	padding-top: 50px;
+}
+
+/*jargnev ytleb, et koigil h2 pealkirjadel kasutada Baloo.. fonti. Kui seda pole, siis cursiveit.*/
+h2{
+	font-family: 'Baloo Thambi 2', cursive;
+	font-size: 30px;
+	color: #144ECE;
 }
 
 header h1{
 	color: crimson;
+	font-size: 70px;
+	margin: 0;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+header img{
+	width: 800px
+}
+
+main{
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 20px 20px 20px;
+}
+
+/*loe jargnevat nii: koik pildid maini sees olgu.. Siin 100% sest kui muuta ylemist main max widthi, vastavad pildid muutustele automaatselt.*/
+main img{
+	max-width: 100%
+}
+
+footer{
+	text-align: center;
+	background-color: snow;
+	padding: 50px
+}
+
+footer p{
+	margin: 0;
+}
+
+a{
+	color: #144ECE;	
+}
+/*jargnev ytleb et kui liigud yle a elemendi, siis muudab see varvi*/
+a:hover{
+	color: crimson;
+}
+
+p.caption{
+	color: #ababab;
+	font-style: italic;
+	margin-top: 0;
+	font-size: 15px;
 }
